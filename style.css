@@ -1,0 +1,388 @@
+ body {
+     font-family: sans-serif;
+ }
+
+ .header {
+     width: 1140px;
+     margin: auto;
+     padding-top: 30px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .navber {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+ }
+
+ .navber ul li {
+     list-style: none;
+ }
+
+ .navber ul li a {
+     text-decoration: none;
+     font-family: sans-serif;
+     color: rgba(0, 0, 0, 50%);
+ }
+ .navber ul li a span{
+   font-weight:900;
+   color: black;
+ }
+
+ .navber ul {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .navber ul li a {
+     padding: 20px;
+ }
+
+ .header_content {
+     width: 1140px;
+     height: 461px;
+     margin: 20px auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     align-items: end;
+     column-gap: 20px;
+ }
+
+
+ .header-cnt {
+     width: 100%;
+ }
+
+ .header-cnt h2 {
+     font-size: 65px;
+     text-transform: uppercase;
+     font-weight: bold;
+
+ }
+
+ .header-cnt h2 b {
+     color: rgb(233, 90, 8);
+
+ }
+
+ .header-cnt p {
+     color: rgba(0, 0, 0, 50%);
+     font-size: 22px;
+
+ }
+
+ .header-content-img {
+     width: 100%;
+ }
+
+ .header-content-img img {
+     width: 100%;
+ }
+
+ .main-item {
+     width: 1140px;
+     margin: auto;
+     display: grid;
+     gap: 20px;
+     grid-template-columns: repeat(4, 1fr);
+ }
+
+ .main-item-cont {
+     text-align: center;
+ }
+
+ .main-item-cont h5 {
+     background-color: rgb(233, 90, 8);
+     padding: 10px 0px;
+     color: black;
+ }
+
+ .main-item-cont h5 a {
+
+     color: white;
+     text-decoration: none;
+
+ }
+
+ .main-cnt {
+     text-align: center;
+     width: 55%;
+     margin: auto;
+ }
+
+ .main-cnt h2 {
+     font-size: 50px;
+     text-transform: capitalize;
+ }
+
+ .main-cnt h2 span {
+     color: rgb(233, 90, 8);
+ }
+
+ .main-cnt p {
+     font-size: 22px;
+     color: rgba(0, 0, 0, 50%);
+
+ }
+
+ .main-flower {
+     width: 1140px;
+     height: 597px;
+     margin: auto;
+     margin-top: 200px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 30px;
+ }
+
+ .main-fcnt h2 {
+     font-size: 50px;
+
+ }
+
+ .main-fcnt {
+     width: 90%;
+
+ }
+
+ .main-fcnt ul li {
+     padding-top: 20px;
+     color: rgba(0, 0, 0, 50%);
+     font-size: 22px;
+ }
+
+ .main-flower-badge {
+     height: 286px;
+     width: 286px;
+     position: absolute;
+     top: 1850px;
+     left: 530px;
+
+ }
+
+ .main-flower-badge img {
+     height: 100%;
+     width: 100%;
+
+ }
+
+ .main-ftr-img {
+     height: 423px;
+     width: 1140px;
+     margin: auto;
+     display: grid;
+     grid-template-columns: 1fr 3fr;
+     align-items: center;
+
+ }
+
+ .main-footer-cnt1 {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-image: url(./assets/deal-zabo.png);
+     border-radius: 20px;
+     height: 423px;
+     margin: 20px;
+     background-size: cover;
+     opacity: rgba(0, 0, 0, 0.192);
+ }
+
+ .zabo-plant {
+     padding-left: 30%;
+     color: white;
+     z-index: 1;
+     font-weight: bold;
+ }
+
+ .zabo-plant p {
+     font-size: 40px;
+
+
+ }
+
+ .main-footer-cnt-one {
+     justify-content: space-between;
+     background-image: url(./assets/deal-bloom.png);
+     border-radius: 20px;
+     height: 201px;
+     background-size: cover;
+ }
+
+ .main-footer-cnt-two {
+     justify-content: space-between;
+     background-image: url(./assets/deal-ana.png);
+     border-radius: 20px;
+     height: 201px;
+     background-size: cover;
+
+ }
+
+ .ana-plant {
+     padding-left: 20%;
+     color: white;
+     z-index: 1;
+     font-weight: bold;
+     align-items: center;
+
+ }
+
+ .ana-plant p {
+     font-size: 20px;
+     padding-top: 70px;
+ }
+
+ .ana-plant h5 a {
+     font-size: 16px;
+     padding-left: 40px;
+     color: white;
+
+
+
+ }
+
+ .blm-plant {
+     padding-left: 20%;
+     color: white;
+     z-index: 1;
+     font-weight: bold;
+     align-items: center;
+
+ }
+
+ .blm-plant p {
+     font-size: 20px;
+     padding-top: 70px;
+ }
+
+ .blm-plant h5 a {
+     font-size: 16px;
+     padding-left: 40px;
+     color: white;
+ }
+
+ .zabo-plant h5 a {
+     font-size: 28px;
+     padding-left: 120px;
+     color: white;
+ }
+
+ .main-ftr-cnt {
+     text-align: center;
+     margin-top: 100px;
+     text-transform: capitalize;
+     font-size: 50px;
+ }
+
+ .main-ftr-cnt h1 span {
+     color: rgb(233, 90, 8);
+
+ }
+
+ .main-ftr-cnt p {
+     color: rgba(0, 0, 0, 50%);
+     font-size: 22px;
+     width: 60%;
+     margin: auto;
+     padding-bottom: 50px;
+
+ }
+
+ .main-ftr-btm {
+     margin-top: 100px;
+     background-image: url(./assets/news-letter-bg.png);
+     background-size: cover;
+     height: 533px;
+ }
+
+ .main-btm-cint {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 100px;
+ }
+
+ .main-btm-cint p {
+     font-size: 50px;
+     color: white;
+     font-weight: bold;
+     font-family: sans-serif;
+ }
+
+ .main-btm-cint h4 input {
+
+     padding-left: 30px;
+     width: 644px;
+     height: 44px;
+ }
+
+ .main-btm-cint h4 a {
+     background-color: rgb(233, 90, 8);
+     padding: 15px 30px;
+     text-decoration: none;
+     color: white;
+     font-size: 16px;
+     width: 186px;
+     height: 50px;
+ }
+
+ .footer {
+     width: 1140px;
+     margin: 100px auto;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+ }
+
+ .ftr-logo {
+     width: 135px;
+     height: 82px;
+
+ }
+
+ .ftr-logo div img {
+     width: 100%;
+     height: 100%;
+
+ }
+
+ .ftr-logo div p {
+     font-size: 22px;
+     color: rgba(0, 0, 0, 50%);
+     width: 300px;
+ }
+
+ .ftr-nav ul li a {
+     text-decoration: none;
+     text-transform: capitalize;
+     color: rgba(0, 0, 0, 50%);
+ }
+
+ .ftr-nav ul li {
+     list-style: none;
+     padding-bottom: 30px;
+ }
+
+ .ftr-nav2 ul li a {
+     text-decoration: none;
+     text-transform: capitalize;
+     color: rgba(0, 0, 0, 50%);
+ }
+
+ .ftr-nav2 ul li {
+     list-style: none;
+     padding-bottom: 30px;
+ }
+
+ .ftr-icon {
+     width: 216px;
+     height: 36px;
+ }
+
+ .ftr-icon div img {
+     width: 36px;
+     height: 36px;
+ }
