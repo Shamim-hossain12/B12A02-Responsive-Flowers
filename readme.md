@@ -1,3 +1,6 @@
+live server link__https://shamim-hossain12.github.io/B12A02-Responsive-Flowers/
+
+
 ## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-002 😎
 
 ### 📅 Deadline For 60 marks: 25th July, 2025 (11:59 pm ⏱️)
